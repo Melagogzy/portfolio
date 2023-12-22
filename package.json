@@ -2,11 +2,11 @@
   "name": "developer-portfolio-starter-code",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://ogbonnamichael.formidabletech.com.ng/",
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "next/font": "^13.4.17",

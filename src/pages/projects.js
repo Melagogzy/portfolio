@@ -5,8 +5,16 @@ import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import Image from 'next/image'
 import { GithubIcon } from '@/components/Icons'
-import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg'
+import project1 from '../../public/images/projects/vf.jpg'
+
+import project2 from '../../public/images/projects/dm.jpg'
+import project5 from '../../public/images/projects/ajb.jpg'
+import project4 from '../../public/images/projects/moolu.jpg'
+import project3 from '../../public/images/projects/dc.jpg'
+import project6 from '../../public/images/projects/prompt.jpg'
+
 import {motion} from 'framer-motion'
+import TransitionEffect from '@/components/TransitionEffect'
 
 const FramerImage = motion(Image);
 
@@ -112,6 +120,8 @@ const Project = ({title, type, img, link, github}) => {
        <meta name="description" content='This page describes what I do as a software engineer'/>
     </Head>
 
+    <TransitionEffect />
+
     <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
         <Layout className='pt-16'> 
             <AnimatedText text="Imagination Trumps Knowledge" 
@@ -121,14 +131,14 @@ const Project = ({title, type, img, link, github}) => {
             <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                <div className='col-span-12'>
                 <FeaturedProject
-                title="Crypto Screener Application"
+                title="Value Finders"
                 img = {project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                local currency."
-                link ="/"
+                summary="Valuefinders, an all encompassing online freelancers marketplace is created
+                 to help remote and nearby skilled persons be found by organizations and individuals 
+                 in need of their services"
+                link ="http://valuefinders.org/"
                 github='/'
-                type="Featured Project"
+                type="UI Design & Frontend Development"
 
                 />
                
@@ -137,14 +147,12 @@ const Project = ({title, type, img, link, github}) => {
 
              <div className='col-span-6 sm:col-span-12'>
                  <Project 
-                  title="Crypto Screener Application"
-                  img = {project1}
-                  summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                  It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                  local currency."
-                  link ="/"
+                  title="Danest Motors"
+                  img = {project2}
+                  summary=""
+                  link ="https://danestmotors.com/"
                   github='/'
-                  type="Featured Project"
+                  type="UI Design &  Development"
                  
                  
                  />
@@ -152,14 +160,12 @@ const Project = ({title, type, img, link, github}) => {
 
              <div className='col-span-6 sm:col-span-12'>
              <Project 
-                  title="Crypto Screener Application"
-                  img = {project1}
-                  summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                  It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                  local currency."
-                  link ="/"
+                  title="Docare Foundation"
+                  img = {project3}
+                  summary=""
+                  link ="https://docarefoundation.org/"
                   github='/'
-                  type="Featured Project"
+                  type="UI Design &  Development"
                  
                  
                  />
@@ -168,12 +174,11 @@ const Project = ({title, type, img, link, github}) => {
 
              <div className='col-span-12'> 
                 <FeaturedProject
-                title="Crypto Screener Application"
-                img = {project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                local currency."
-                link ="/"
+                title="Moolu Venture Lab"
+                img = {project4}
+                summary="The Moolu Venture Movement is a dynamic ecosystem that brings together a diverse community of entrepreneurs,
+                 mentors, investors, and experts who are passionate about creating positive change. "
+                link ="https://moolu.org/"
                 github='/'
                 type="Featured Project"
 
@@ -183,14 +188,12 @@ const Project = ({title, type, img, link, github}) => {
 
                     <div className='col-span-6 sm:col-span-12'>
                            <Project 
-                  title="Crypto Screener Application"
-                  img = {project1}
-                  summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                  It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                  local currency."
-                  link ="/"
+                  title="Ajebo Market Place"
+                  img = {project5}
+                  summary=""
+                  link ="https://ajebo.com.ng/"
                   github='/'
-                  type="Featured Project"
+                  type="UI Design & Developer"
                  
                  
                  />
@@ -198,14 +201,12 @@ const Project = ({title, type, img, link, github}) => {
 
                     <div className='col-span-6 sm:col-span-12'>
                            <Project 
-                  title="Crypto Screener Application"
-                  img = {project1}
-                  summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                  It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                  local currency."
-                  link ="/"
+                  title="Prompt Home Health"
+                  img = {project6}
+                  summary=""
+                  link ="https://prompthomehealth.org/"
                   github='/'
-                  type="Featured Project"
+                  type="UI Design & Development"
                  
                  
                  />

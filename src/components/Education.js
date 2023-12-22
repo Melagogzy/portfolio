@@ -63,19 +63,19 @@ const Education = () => {
            <ul className='w-full flex flex-col items-start justify-between ml-4 ml-4 xs:ml-2'>
             <Details 
             type=" Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)" 
+            time="2006-2011"
+            place="Enugu State University of science and technology 
+            " 
             info= "Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
             Intelligence."
               
                />
 
           <Details 
-            type="  Master Of Computer Science"
-            time="2020-2022"
-            place="Stanford University" 
-            info= "Completed a master's project on deep learning, developing a new neural network architecture for natural 
-            language understanding."
+            type="  Online Course"
+            time="2019-2020"
+            place="UDEMY" 
+            info= "MERN Stack Front To Back: Full Stack React, Redux & Node.js"
               
                />
 
@@ -84,15 +84,22 @@ const Education = () => {
 
 
 
-          <Details 
-            type=" Online Coursework"
-            time="2016-2020 "
-            place=" Coursera And EdX" 
-            info= "Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine 
-            Learning Engineering."
+           <Details 
+            type="  Online Course"
+            time="2019-2020"
+            place="UDEMY" 
+            info= "The Complete Full-Stack JavaScript Course"
               
                />
 
+
+           <Details 
+            type="  Online Course"
+            time="2020-2021"
+            place="UDEMY" 
+            info= "Build Responsive Real-World Websites with HTML and CSS"
+              
+               />
 
 
 
